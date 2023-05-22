@@ -8,6 +8,7 @@ body {
     font-family: sans-serif;
     font-weight: 400;
     color: #000;
+    background-color: #2983a1;
 }
 
 /* heading and logo*/
@@ -52,4 +53,11 @@ h1, h2 {
 
 .active {
     border-bottom: 2px solid #3648e9;
+}
+
+#hero-img {
+    height: 600px;
+    width: 100%;
+    background: url("../images/heroimg.jpg") no-repeat center center;
+    overflow: hidden;
 }
