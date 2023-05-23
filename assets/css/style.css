@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     font-weight: 400;
     color: #000;
-    background-color: #2983a1;
+    background-color: rgba(46, 198, 127, 0.93);
 }
 
 /* heading and logo*/
@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 2%;
 }
 
 #menu {
@@ -60,4 +61,22 @@ h1, h2 {
     width: 100%;
     background: url("../images/heroimg.jpg") no-repeat center center;
     overflow: hidden;
+}
+/* cover text*/
+#cover-text {
+    font-size: 110%;
+    font-family: Comic Neue, Arial;
+    letter-spacing: 4px;
+
+    top: 200px;
+    left: 80px;
+    position: absolute;
+    border-radius: 25px;
+
+    width: 300px;
+    height: 200px;
+    padding: 2%;
+
+    background-color: rgba(46, 221, 139, 0.5);
+    color: #000;
 }
