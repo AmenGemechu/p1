@@ -5,7 +5,7 @@
     border: none;
 }
 body {
-    font-family: sans-serif;
+    font-family: Open Sans;
     font-weight: 400;
     color: #000;
     background-color: rgba(46, 198, 127, 0.93);
@@ -17,11 +17,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #000;
+    font-size: 180%;
 }
 
 #logo {
     float: left;
     font-size: 250%;
+    font-family: inherit;
     margin-left: 2%;
 }
 
@@ -65,7 +67,6 @@ h1, h2 {
 /* cover text*/
 #cover-text {
     font-size: 110%;
-    font-family: Comic Neue, Arial;
     letter-spacing: 4px;
 
     top: 200px;
@@ -80,3 +81,48 @@ h1, h2 {
     background-color: rgba(46, 221, 139, 0.5);
     color: #000;
 }
+
+/* Apps */
+#apps {
+    width: 100%;
+    height: fit-content;
+}
+
+.apps-header {
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+}
+
+.apps-img-div {
+    width: 50%;
+    height: 300px;
+    display: grid;
+    float: left;
+}
+
+ .apps-description {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    margin-top: 2%;
+ }
+
+ .apps-img {
+    margin: 4% 8%;
+ }
+
+ #apps p {
+    width: 350px;
+    height: 300px;
+    padding: 4%;
+    background-color: rgb(39, 145, 100);
+    color: #000;
+    letter-spacing: 2px;
+    font-family: inherit;
+    font-size: 100%;
+ }
+
+ .apps-img, #apps p {
+    border-radius: 10px;
+ }
