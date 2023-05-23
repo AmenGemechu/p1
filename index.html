@@ -103,9 +103,37 @@
                 </p>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Feedback</h2>
+        <section id="feedback">
+            <div id="feedback-header">
+                <h3>Which feature do you wish these apps included?</h3>
+            </div>
+
+            <div class="feedback-form">
+                <form action=" " class="feedback-form">
+
+                    <label for="fname"><p>First name</p></label>
+                    <input class="form-input" type="text" id="fname" name="fname" placeholder="Amy" required>
+                    <br>
+                    <label for="lname"><p>Last name</p></label>
+                    <input class="form-input" type="text" id="lname" name="lname" placeholder="Smith" required>
+                    <br>
+                    <label for="email"><p>Email</p></label>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com"
+                        required>
+                    <br>
+                    <label for="features"><p>Features</p></label>
+                    <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
+
+                    <label for="disabilities"><p>Disability</p></label>
+                    <select class="form-input" name="disabilities" id="disabilities">
+                        <option value="mutism">Mutism</option>
+                        <option value="visual-impairment">Visual Impairment</option>
+                        <option value="mobility-disabilities">Mobility Disabilities</option>
+                        <option value="deaf-and-hard-of-hearing">Deaf and Hard of Hearing</option>
+                    </select>
+
+                    <input class="submit" type="submit" value="submit">
+                </form>
             </div>
         </section>
     </main>

@@ -126,3 +126,32 @@ h1, h2 {
  .apps-img, #apps p {
     border-radius: 10px;
  }
+
+ /*Feedback section*/
+ #feedback-header {
+    width: 100%;
+    font-size: 120%;
+    margin: 4%;
+ }
+
+ #feedback-header h3 {
+    text-align: center;
+ }
+
+ .feedback-form {
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: rgb(39, 145, 100);
+    display: grid;
+    padding-top: 15px;
+ }
+
+ .feedback-form p {
+    font-size: 120%;
+ }
+
+ .feedback-form input {
+    font-size: 120%;
+ }
