@@ -100,6 +100,11 @@ h1, h2 {
     float: left;
 }
 
+.apps-img-div a {
+    text-align: center;
+    list-style-type: none;
+}
+
  .apps-description {
     width: 50%;
     height: 400px;
@@ -128,6 +133,7 @@ h1, h2 {
 
  /*Feedback section*/
  #feedback {
+    height: 500px;
     border-radius: 10px;
     background-color: rgb(39, 145, 100);
  }
@@ -135,7 +141,7 @@ h1, h2 {
  #feedback-header {
     width: 100%;
     font-size: 120%;
-    margin: 4%;
+    padding: 2%;
  }
 
  #feedback-header h3 {
@@ -143,12 +149,12 @@ h1, h2 {
  }
 
  .feedback-form {
-    width: 50%;
+    width: 60%;
     height: 350px;
     margin-left: 25%;
-
+    align-items: center;
     display: grid;
-    padding-top: 15px;
+    padding-top: 10px;
  }
 
  .feedback-form p {
@@ -157,10 +163,18 @@ h1, h2 {
 
  .feedback-form input {
     font-size: 120%;
+ }
+
+ form .submit {
+    width: 30%;
+    align-items: center;
+ }
  
 
  /* Footer */
-
+.footer {
+    height: 100px;
+}
  .footer ul {
     width: 100%;
     height: 40px;
@@ -170,13 +184,16 @@ h1, h2 {
 
  .footer li {
     width: 30%;
+    margin: 2%;
     display: grid;
     text-align: center;
+    font-size: 150%;
  }
 
  .author {
     width: 100%;
     height: 40px;
+    margin: 2%;
     text-align: center;
     font-size: 120%;
  }
