@@ -103,6 +103,7 @@
                 </p>
             </div>
         </section>
+        
         <section id="feedback">
             <div id="feedback-header">
                 <h3>Which feature do you wish these apps included?</h3>
@@ -111,20 +112,31 @@
             <div class="feedback-form">
                 <form action=" " class="feedback-form">
 
-                    <label for="fname"><p>First name</p></label>
+                    <label for="fname">
+                        <p>First name</p>
+                    </label>
                     <input class="form-input" type="text" id="fname" name="fname" placeholder="Amy" required>
                     <br>
-                    <label for="lname"><p>Last name</p></label>
+                    <label for="lname">
+                        <p>Last name</p>
+                    </label>
                     <input class="form-input" type="text" id="lname" name="lname" placeholder="Smith" required>
                     <br>
-                    <label for="email"><p>Email</p></label>
+                    <label for="email">
+                        <p>Email</p>
+                    </label>
                     <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com"
                         required>
                     <br>
-                    <label for="features"><p>Features</p></label>
-                    <input class="form-input" type="text" id="features" name="features" placeholder="type here" required>
+                    <label for="features">
+                        <p>Features</p>
+                    </label>
+                    <input class="form-input" type="text" id="features" name="features" placeholder="type here"
+                        required>
 
-                    <label for="disabilities"><p>Disability</p></label>
+                    <label for="disabilities">
+                        <p>Disability</p>
+                    </label>
                     <select class="form-input" name="disabilities" id="disabilities">
                         <option value="mutism">Mutism</option>
                         <option value="visual-impairment">Visual Impairment</option>
@@ -137,11 +149,29 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <!--Social media links-->
-        </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-media-links">
+            <li>
+                <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"
+                    title="Go to Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener"
+                    title="Go to Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://tiktok.com" aria-label="Tiktok" target="_blank" rel="noopener" title="Go to Tiktok"><i
+                        class="fa-brands fa-tiktok"></i></a>
+            </li>
+        </ul>
     </footer>
+    <div class="author">
+        <p>Amen Gedeno | Code Institute | 2023</p>
+    </div>
+    <!--Font Awesome script-->
+    <script src="https://kit.fontawesome.com/f905a44efa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
