@@ -307,3 +307,27 @@ h1, h2 {
         background-color: rgb(39, 145, 100);
     }
 }
+
+/*Medium medea queries*/
+@media screen and (max-width: 1000px) {
+    body {
+
+    }
+
+    #feedback {
+        height: 400px;
+    }
+
+    #feedback-header {
+        width: 80%;
+        margin-left: 5%;
+        font-size: 110%;
+    }
+
+    .feedback-form {
+        width: 70%;
+        height: 300px;
+        margin-left: 15%;
+        line-height: 10px;
+    }
+}
