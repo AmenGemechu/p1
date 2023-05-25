@@ -136,7 +136,7 @@ h1, h2 {
  }
 
  #apps p {
-    width: 350px;
+    width: 60%;
     height: 300px;
     padding: 4%;
     background-color: rgb(39, 145, 100);
@@ -154,8 +154,8 @@ h1, h2 {
  /*Feedback section*/
  #feedback {
     height: 500px;
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     border-radius: 10px;
     background-color: rgb(39, 145, 100);
  }
@@ -173,7 +173,7 @@ h1, h2 {
  .feedback-form {
     width: 60%;
     height: 350px;
-    margin-left: 25%;
+    margin-left: 20%;
     align-items: center;
     display: grid;
     padding-top: 10px;
@@ -228,7 +228,7 @@ h1, h2 {
     background-color: rgb(41, 115, 84);
  }
 
- /*Small screen medea queries*/
+ /*Small screen media queries*/
  @media screen and (max-width: 600px) {
     body {
         margin: 0;
@@ -308,7 +308,7 @@ h1, h2 {
     }
 }
 
-/*Medium medea queries*/
+/*Medium screen media queries*/
 @media screen and (max-width: 1000px) {
     body {
 
@@ -344,6 +344,37 @@ h1, h2 {
         margin: 0 10px 4px 0;
     }
 
+    #hero-img {
+        height: 400px;
+    }
+    #cover-text {
+        margin-top: 10%;
+    }
+/*
+    #apps .apps-img-div, #apps .apps-description {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    } */
+
+    .apps-description p {
+        
+    }
+    /*
+    .apps-img-div {
+        width: 50%;
+        height: 400px;
+        display: grid;
+        float: left;
+        grid-template-columns: 1fr 1fr;
+      }
+*/
+    .apps-description {
+        
+    }
+
     #feedback {
         height: 400px;
     }
@@ -351,13 +382,14 @@ h1, h2 {
     #feedback-header {
         width: 80%;
         margin-left: 5%;
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .feedback-form {
         width: 70%;
         height: 300px;
         margin-left: 15%;
-        line-height: 10px;
+        line-height: 4px;
+        font-size: 90%;
     }
 }
