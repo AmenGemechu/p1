@@ -8,7 +8,13 @@ body {
     font-family: Open Sans;
     font-weight: 400;
     color: #000;
-    background-color: rgba(46, 198, 127, 0.93);
+    background-color: rgb(46, 198, 127);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 /* heading and logo*/
@@ -24,7 +30,9 @@ h1, h2 {
     float: left;
     font-size: 250%;
     font-family: inherit;
-    margin-left: 2%;
+    width: 55%;             /*new*/
+    padding-left: 5%;       /*new*/
+    background-color: rgb(39, 145, 100);
 }
 
 #menu {
@@ -34,12 +42,15 @@ h1, h2 {
 
 #menu ul {
     float: right;
+    background-color: rgb(39, 145, 100);
+    width: 40%;
 }
 
 #menu li {
     list-style-type: none;
     margin-right: 30px;
     display: inline-block;
+    width: 25%; /*new*/
 }
 
 #menu li:hover {
