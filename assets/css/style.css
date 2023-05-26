@@ -359,20 +359,34 @@ h1, h2 {
         padding: 0;
     } */
 
+    .apps-header {
+        width: 100%;
+        font-size: 90%;
+        margin: 0;
+    }
+
     .apps-description p {
         
     }
-    /*
+    
     .apps-img-div {
-        width: 50%;
+        width: 40%;
         height: 400px;
         display: grid;
         float: left;
-        grid-template-columns: 1fr 1fr;
-      }
-*/
+        grid-template-columns: 1fr;
+        line-height: 30;
+    }
+
+    .apps-img {
+       
+    }
+
     .apps-description {
-        
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 90%;
     }
 
     #feedback {
