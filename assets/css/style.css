@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     color: #000;
     background-color: rgb(46, 198, 127);
+    overflow: hidden;
 }
 
 header {
@@ -35,6 +36,7 @@ h1, h2 {
     background-color: rgb(39, 145, 100);
 }
 
+/*navbar*/
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
@@ -72,12 +74,15 @@ h1, h2 {
     border-bottom: 2px solid rgb(41, 115, 84);
 }
 
+/*hero image*/
 #hero-img {
     height: 600px;
     width: 100%;
     background: url("../images/heroimg.jpg") no-repeat center center;
     overflow: hidden;
+    object-fit: cover;
 }
+
 /* cover text*/
 #cover-text {
     font-size: 110%;
