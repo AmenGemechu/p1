@@ -1,12 +1,13 @@
 # Accessible
 
- Accessible is a lifehack website that displays all sorts of mobile applications specifically created for people with physical disavilities. 
+ Accessible is a lifehack website that displays mobile applications specifically created for people with physical disailities. 
 
 
  The website is created to inform users about useful applications out there that will help make their everyday lives easier.
 
 
 In addition to list of applications users will also be able to find information about app details, functionality and device compatibility.
+ along with direct links to the applications. 
 
 ![Website screenshot](https://github.com/AmenGemechu/Portofolio-1/blob/main/assets/images/Screenhot.png)
 
@@ -27,7 +28,8 @@ In addition to list of applications users will also be able to find information 
 ![home](https://user-images.githubusercontent.com/81637641/222145687-cb0a7203-4ad4-4bdf-8c91-e3a089d6c0e3.png)
 
 * Apps
-- The Apps section will allow user to see the listed disable friendly applications, as well as the discription and divice compatability.
+- The Apps section will allow user to see the listed disable friendly applications, as well as the discription and divice compatability with direct link to the app store.
+- Users can easly find the links by either clicking the app logo or by clicking the name of the application in the description text.
   
 ![apps](https://user-images.githubusercontent.com/81637641/222147279-d749ea5f-169b-4739-b76e-e44c98e04f39.png)
 
@@ -38,7 +40,8 @@ In addition to list of applications users will also be able to find information 
 ![form](https://user-images.githubusercontent.com/81637641/222149591-b80861e3-ab1d-4745-81e4-8a9a3ddbbbdf.png)
 
 * Footer
- - The footer section includes links to social media sites. The links open in a new tab.
+ - The footer section includes links to social media sites. 
+ - The links open in a new tab.
  
  ![footer](https://user-images.githubusercontent.com/81637641/222150529-5bf94af4-7d2b-4888-a894-21c052720e48.png)
 
