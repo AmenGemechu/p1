@@ -239,98 +239,7 @@ h1, h2 {
     background-color: #2D3E48;
  }
 
- /*Small screen media queries*/
- @media screen and (max-width: 600px) {
-    body {
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    header a {
-        width: 100%;
-        display: flex;
-    }
-
-    #menu {
-        width: 100%;
-    }
-
-    #menu li {
-        display: flex;
-        padding-left: 35px;
-    }
-
-    #menu ul {
-        display: flex;
-    }
-
-    #logo h1 {
-        font-size: 120%;
-    }
-  
-    #hero-img {
-        width: 100%;
-        height: 400px;
-        background-position: center;
-        background: url("../images/wheelchair-logo.webp") no-repeat center center;
-    }
-
-
-    .apps-header {
-        width: 100%;
-        font-size: 90%;
-        margin: 0;
-    }
-
-    .apps-img-div {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        align-items: center;
-        margin-left: 10%;
-    }
-
-    .apps-description {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    #feedback {
-        
-    }
-
-    #feedback-header {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 90%;
-        font-size: 100%;
-    }
-
-    .feedback-form {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .footer ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 10%;
-    }
-
-    .author {
-        margin: 0;
-        font-size: 100%;
-        background-color: black;
-    }
-}
+ 
 
 /*Medium screen media queries*/
 @media screen and (max-width: 1100px) {
@@ -415,5 +324,107 @@ h1, h2 {
         margin-left: 15%;
         line-height: 4px;
         font-size: 90%;
+    }
+}
+
+/*Small screen media queries*/
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header a {
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+    }
+
+    header h1 {
+        width: 80%;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
+    #menu li {
+        display: flex;
+        padding-left: 35px;
+    }
+
+    #menu ul {
+        display: flex;
+    }
+
+    #logo h1 {
+        font-size: 120%;
+    }
+  
+    #hero-img {
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background: url("../images/wheelchair-logo.webp") no-repeat center center;
+    }
+
+
+    .apps-header {
+        width: 100%;
+        font-size: 90%;
+        margin: 0;
+    }
+
+    .apps-img-div {
+        display: flex;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .apps-description {
+        display: flex;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #feedback {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #feedback-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    feedback-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .footer ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10%;
+    }
+
+    .author {
+        margin: 0;
+        font-size: 100%;
+        background-color: black;
     }
 }
