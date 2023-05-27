@@ -244,7 +244,7 @@ h1, h2 {
 /*Medium screen media queries*/
 @media screen and (max-width: 1100px) {
     header {
-        display: block;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         width: 100%;   
         background-color: #2D3E48;
@@ -267,6 +267,7 @@ h1, h2 {
         justify-content: right;
         display: flex;
         padding: 5%;
+        line-height: 100px;
     }
 
     #menu li {
@@ -279,10 +280,6 @@ h1, h2 {
     #hero-img {
         max-width: 100%;
         max-height: 400px;
-    }
-
-    #cover-text {
-        margin-top: 10%;
     }
 
     .apps-header {
